@@ -5,69 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Landing Page</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap'); 
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap'); 
 
-        body {
-            font-family: 'Playfair Display', serif; /* Updated font */
-            margin: 0;
-            padding: 0;
-            color: #333;
-            opacity: 1;
-        }
+    body {
+        font-family: 'Playfair Display', serif; /* Updated font */
+        margin: 0;
+        padding: 0;
+        color: #333;
+        opacity: 1;
+    }
 
-        h1, h2, h3 {
-            margin: 0;
-        }
+    h1, h2, h3 {
+        margin: 0;
+    }
 
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 
-        .img {
-            position: relative; /* Make the container position relative */
-            background-image: url('Final.jpg'); /* Correct the image URL */
-            background-size: cover;
-            background-position: center;
-            height: 400px; /* Ensure this has height */
-            width: 100%; /* Full width */
-        }
+    .img {
+        position: relative; /* Make the container position relative */
+        background-image: url('Final.jpg'); /* Correct the image URL */
+        background-size: cover;
+        background-position: center;
+        height: 400px; /* Ensure this has height */
+        width: 100%; /* Full width */
+    }
 
-        /* Add an overlay with opacity */
-        .img::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
-            z-index: 1; /* Ensure the overlay is above the background image */
-        }
+    /* Add an overlay with opacity */
+    .img::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+        z-index: 1; /* Ensure the overlay is above the background image */
+    }
 
-        /* Content inside the .img container */
-        .img .content {
-            position: relative;
-            z-index: 2; /* Ensure content is above the overlay */
-            padding: 20px; /* Add padding if needed */
-        }
+    /* Content inside the .img container */
+    .img .content {
+        position: relative;
+        z-index: 2; /* Ensure content is above the overlay */
+        padding: 20px; /* Add padding if needed */
+    }
 
-        /* Header */
-        header {
-            padding: 20px;
-            display: flex;
-            justify-content: space-between; /* Distribute space evenly */
-        }
+    /* Header */
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between; /* Distribute space evenly */
+    }
 
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
 
-        .text-container {
-            max-width: 50%; /* Adjust as needed */
-        }
-    </style>
+    .text-container {
+        max-width: 50%; /* Adjust as needed */
+    }
+</style>
 </head>
 <body>
     <header>
